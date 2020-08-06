@@ -1,38 +1,277 @@
-.App {
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.Background {
+  width: 1500px;
+  height: 1024px;
+  background-color: #ffffff;
+  z-index: -2;
+}
+
+.ui-diagonale-haut-bleu {
+  width: 981px;
+  height: 75px;
+  position: absolute;
+  background-color: #ffffff;
+  left: 519px;
+}
+
+.logo-paris {
+  width: 157px;
+  height: 42px;
+  object-fit: contain;
+  position: absolute;
+  background-color: #ffffff;
+  top: 84px;
+  left: 210px;
+}
+
+.Rectangle-581 {
+  width: 3px;
+  height: 37px;
+  background-color: #002542;
+  position: absolute;
+  left: 389px;
+  top: 86px;
+}
+
+.logo-parcoursrevolution {
+  width: 151px;
+  height: 50px;
+  object-fit: contain;
+  position: absolute;
+  left: 417px;
+  top: 77px;
+}
+
+.Sur-les-traces-de-la-Rvolution-Paris {
+  width: 568px;
+  height: 117px;
+  font-family: Korolev;
+  font-size: 58px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.28;
+  letter-spacing: normal;
+  text-align: left;
+  color: #002542;
+  position: absolute;
+  left: 211px;
+  top: 150px;
+}
+
+.La-Ville-de-Paris-vous-propose-de-parcourir-Le-Paris-de-la-Rvo {
+  width: 308px;
+  height: 267px;
+  font-family: NotoSerif;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #002542;
+  position: absolute;
+  left: 209px;
+  top: 380px;
+}
+
+.The-City-of-Paris-invites-you-to-explore-Paris-of-the-French-Re {
+  width: 280px;
+  height: 264px;
+  font-family: NotoSerif;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: italic;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #dc3115;
+  position: absolute;
+  left: 554px;
+  top: 380px;
+}
+
+.visuel-telephones {
+  width: 349px;
+  height: 455px;
+  object-fit: contain;
+  position: absolute;
+  left: 949px;
+  top: 231px;
+}
+
+.Rectangle-arrondi-1 {
+  width: 685px;
+  height: 200px;
+  border-radius: 10px;
+  background-color: #efeae0;
+  position: absolute;
+  top: 700px;
+  left: 166px;
+  z-index: 3;
+}
+
+.Soyez-informs-de-la-sortie-de-lapplication {
+  width: 410px;
+  height: 22px;
+  font-family: Korolev;
+  font-size: 22px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.95;
+  letter-spacing: normal;
+  text-align: left;
+  color: #002542;
+  margin-left: 41px;
+}
+
+.votre-adresse-email {
+  width: 158px;
+  height: 10px;
+  font-family: KorolevRounded;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 1.4px;
+  text-align: left;
+  color: #002542;
+  margin-left: 41px;
+}
+
+.Rectangle-arrondi-2 {
+  width: 405px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  margin-left: 41px;
+  opacity: 0.9;
+  font-family: NotoSerif;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  text-align: left;
+  color: rgba(0, 37, 66, 0.9);
+}
+
+.Rectangle-arrondi-3 {
+  width: 170px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: #dc3115;
+  margin-left: 21px;
+  font-family: NotoSerif;
+  font-size: 17px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.41;
+  letter-spacing: normal;
   text-align: center;
+  color: #ffffff;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.ui-diagonale-bas-rouge {
+  width: 1374px;
+  height: 147px;
+  object-fit: contain;
+  position: absolute;
+  top: 877px;
+  z-index: 2;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.visuel-bastille-bleu {
+  width: 718px;
+  height: 308px;
+  position: absolute;
+  top: 716px;
+  left: 731px;
+  z-index: 1;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Mentions-lgales {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 15px;
+  font-family: NotoSerif;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  position: absolute;
+  top: 952px;
+  left: 159px;
+  z-index: 3;
 }
 
-.App-link {
-  color: #61dafb;
+.Mentions-lgales p{
+  margin-left: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.verticalbar {
+  position: absolute;
+  top: 172px;
+  right: -20px;
+  width: 12px;
+  height: 176px;
+}
+
+.parisrvolution {
+  -webkit-transform: rotate(-90deg);   
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  text-orientation: mixed;
+  font-family: KorolevRounded;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #130e3a;
+}
+
+.Filet {
+  width: 1px;
+  height: 60px;
+  background-color: #dc3115;
+  margin-left: 8px;
+}
+
+.picto-facebook {
+  margin-left: 5px;
+  margin-top: 20px;
+  width: 8px;
+  height: 17px;
+  object-fit: contain;
+}
+
+.picto-youtube {
+  margin-top: 20px;
+  width: 19px;
+  height: 13px;
+  object-fit: contain;
+}
+
+.picto-instagram {
+  margin-top: 20px;
+  width: 17px;
+  height: 17px;
+  object-fit: contain;
 }
